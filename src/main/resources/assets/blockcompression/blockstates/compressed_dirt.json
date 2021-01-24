@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": {"model": "blockcompression:block/compressed_dirt"}
+    }
+}

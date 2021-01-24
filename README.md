@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# Block Compression Mod
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Download .jar file from CurseForge. Add file to mods folder. Requires Fabric API.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+No license. For use only authorized by d3rpym00.

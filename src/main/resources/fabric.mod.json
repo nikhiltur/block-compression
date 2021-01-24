@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "blockcompression",
+  "version": "${1.0}",
+
+  "name": "Block Compression",
+  "description": "Compresses blocks that would normally take up a lot of space.",
+  "authors": [
+    "d3rpym00"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/d3rpym00/block-compression"
+  },
+
+  "license": "",
+  "icon": "assets/blockcompression/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.d3rpym00.blockCompression.blockCompression"
+    ]
+  },
+  "mixins": [
+    "blockcompression.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

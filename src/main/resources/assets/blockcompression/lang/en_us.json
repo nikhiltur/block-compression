@@ -1,5 +1,6 @@
 {
     "block.blockcompression.compressed_dirt": "Compressed Dirt",
     "block.blockcompression.compressed_cobblestone": "Compressed Cobblestone",
+    "block.blockcompression.compressed_gravel": "Compressed Gravel",
     "itemGroup.blockcompression.general": "Compressed Blocks"
 }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "blockcompression:compressed_cobblestone",
+        "count": 1
+    }
+}

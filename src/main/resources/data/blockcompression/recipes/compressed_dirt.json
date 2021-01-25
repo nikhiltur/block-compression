@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DDD",
+      "DDD",
+      "DDD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:dirt"
+      }
+    },
+    "result": {
+      "item": "blockcompression:compressed_dirt",
+      "count": 1
+    },
+    "group": "blockcompression"
+  }
+

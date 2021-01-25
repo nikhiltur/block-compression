@@ -43,7 +43,7 @@ blockItem = {
 # if statements for writing to the file
 
 if jsonType == ("lootTable"):
-    lootTableJSON = json.dumps(lootTable, indent = 4)
+    lootTableJSON = json.dumps(lootTable, indent = 2)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\data\\blockcompression\\loot_tables\\blocks\\"
     completeName = os.path.join(save_path, blockName + ".json")
     print(lootTableJSON)
@@ -55,7 +55,7 @@ if jsonType == ("lootTable"):
     print(blockName + ".json file has been created in the correct folder for lootTables.")
     
 elif jsonType == ("blockState"):
-    blockStateJSON = json.dumps(blockState, indent = 4)
+    blockStateJSON = json.dumps(blockState, indent = 2)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\assets\\blockcompression\\blockstates\\"
     completeName = os.path.join(save_path, blockName + ".json")
     print(blockStateJSON)
@@ -67,7 +67,7 @@ elif jsonType == ("blockState"):
     print(blockName + ".json file has been created in the correct folder for blockStates.")
 
 elif jsonType == ("blockModel"):
-    blockModelJSON = json.dumps(blockModel, indent = 4)
+    blockModelJSON = json.dumps(blockModel, indent = 2)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\assets\\blockcompression\\models\\block\\"
     completeName = os.path.join(save_path, blockName + ".json")
     print(blockModelJSON)
@@ -77,7 +77,7 @@ elif jsonType == ("blockModel"):
     json.close()
 
 elif jsonType == ("blockItem"):
-    blockItemJSON = json.dumps(blockItem, indent = 4)
+    blockItemJSON = json.dumps(blockItem, indent = 2)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\assets\\blockcompression\\models\\item\\"
     completeName = os.path.join(save_path, blockName + ".json")
     print(blockItemJSON)

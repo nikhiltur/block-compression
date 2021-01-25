@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "blockcompression:compressed_sand"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sand",
+        "count": 9
+    },
+    "group": "blockcompression"
+}

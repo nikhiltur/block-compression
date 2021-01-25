@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "DDD",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diorite"
+        }
+    },
+    "result": {
+        "item": "blockcompression:compressed_diorite",
+        "count": 1
+    },
+    "group": "blockcompression"
+}

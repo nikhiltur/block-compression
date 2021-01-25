@@ -23,7 +23,7 @@ usedItem = input("Enter the item used for crafting: ")
 print("resultItem format is id:blockname (i.e. blockcompression:compressed_dirt).")
 resultItem = input("Enter the item resulted from the crafting: ")
 count = input("Enter the number of items crafted: ")
-mod_id = input("Enter your mod id here: ")
+mod_id = input("Enter mod id for grouping purposes: ")
 
 shaped = {
     "type": "minecraft:crafting_shaped",

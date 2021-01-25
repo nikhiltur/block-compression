@@ -1,6 +1,10 @@
 {
+    "itemGroup.blockcompression.general": "Compressed Blocks",
     "block.blockcompression.compressed_dirt": "Compressed Dirt",
     "block.blockcompression.compressed_cobblestone": "Compressed Cobblestone",
     "block.blockcompression.compressed_gravel": "Compressed Gravel",
-    "itemGroup.blockcompression.general": "Compressed Blocks"
+    "block.blockcompression.compressed_sand": "Compressed Sand",
+    "block.blockcompression.compressed_diorite": "Compressed Diorite",
+    "block.blockcompression.compressed_andesite": "Compressed Andesite",
+    "block.blockcompression.compressed_granite": "Compressed Granite"
 }

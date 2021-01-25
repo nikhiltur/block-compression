@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "AAA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:andesite"
+        }
+    },
+    "result": {
+        "item": "blockcompression:compressed_andesite",
+        "count": 1
+    },
+    "group": "blockcompression"
+}

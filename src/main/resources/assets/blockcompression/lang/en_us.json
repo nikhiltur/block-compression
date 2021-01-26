@@ -6,5 +6,6 @@
     "block.blockcompression.compressed_sand": "Compressed Sand",
     "block.blockcompression.compressed_diorite": "Compressed Diorite",
     "block.blockcompression.compressed_andesite": "Compressed Andesite",
-    "block.blockcompression.compressed_granite": "Compressed Granite"
+    "block.blockcompression.compressed_granite": "Compressed Granite",
+    "block.blockcompression.compressed_netherrack": "Compressed Netherrack"
 }

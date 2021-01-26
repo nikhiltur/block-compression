@@ -25,6 +25,8 @@ public class ModBlocks {
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_GRANITE = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block COMPRESSED_NETHERRACK = new Block(FabricBlockSettings
+        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.NETHERRACK));
 
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_dirt"), COMPRESSED_DIRT);
@@ -34,6 +36,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_diorite"), COMPRESSED_DIORITE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_andesite"), COMPRESSED_ANDESITE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_granite"), COMPRESSED_GRANITE);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_netherrack"), COMPRESSED_NETHERRACK);
     }
     
 }

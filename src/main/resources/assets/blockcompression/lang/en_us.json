@@ -7,5 +7,6 @@
     "block.blockcompression.compressed_diorite": "Compressed Diorite",
     "block.blockcompression.compressed_andesite": "Compressed Andesite",
     "block.blockcompression.compressed_granite": "Compressed Granite",
-    "block.blockcompression.compressed_netherrack": "Compressed Netherrack"
+    "block.blockcompression.compressed_netherrack": "Compressed Netherrack",
+    "block.blockcompression.bamboo_block": "Bamboo Block"
 }

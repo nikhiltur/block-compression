@@ -18,8 +18,10 @@ public class ModItems {
     public static final BlockItem COMPRESSED_ANDESITE = new BlockItem(ModBlocks.COMPRESSED_ANDESITE, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_GRANITE = new BlockItem(ModBlocks.COMPRESSED_GRANITE, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_NETHERRACK = new BlockItem(ModBlocks.COMPRESSED_NETHERRACK, new Item.Settings().group(blockCompression.ITEM_GROUP));
+    public static final BlockItem BAMBOO_BLOCK = new BlockItem(ModBlocks.BAMBOO_BLOCK, new Item.Settings().group(blockCompression.ITEM_GROUP));
     
     public static void registerItems() {
+        // Item Registry
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_dirt"), COMPRESSED_DIRT);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_cobblestone"), COMPRESSED_COBBLESTONE);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_gravel"), COMPRESSED_GRAVEL);
@@ -28,5 +30,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_andesite"), COMPRESSED_ANDESITE);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_granite"), COMPRESSED_GRANITE);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_netherrack"), COMPRESSED_NETHERRACK);
+        Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "bamboo_block"), BAMBOO_BLOCK);
     }
 }

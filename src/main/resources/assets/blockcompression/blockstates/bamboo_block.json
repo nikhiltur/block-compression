@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blockcompression:block/bamboo_block"
+    }
+  }
+}

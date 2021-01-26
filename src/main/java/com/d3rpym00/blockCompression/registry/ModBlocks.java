@@ -3,6 +3,7 @@ package com.d3rpym00.blockCompression.registry;
 import com.d3rpym00.blockCompression.blockCompression;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -27,8 +28,11 @@ public class ModBlocks {
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_NETHERRACK = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.NETHERRACK));
+    public static final Block BAMBOO_BLOCK = new Block(FabricBlockSettings
+        .of(Material.BAMBOO).breakByTool(FabricToolTags.AXES).requiresTool().strength(4.0f, 4.0f).sounds(BlockSoundGroup.WOOD));
 
     public static void registerBlocks() {
+        // Block Registry
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_dirt"), COMPRESSED_DIRT);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_cobblestone"), COMPRESSED_COBBLESTONE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_gravel"), COMPRESSED_GRAVEL);
@@ -37,6 +41,10 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_andesite"), COMPRESSED_ANDESITE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_granite"), COMPRESSED_GRANITE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_netherrack"), COMPRESSED_NETHERRACK);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "bamboo_block"), BAMBOO_BLOCK);
+        
+        // Fuel Registry
+        FuelRegistry.INSTANCE.add(BAMBOO_BLOCK, 600);
     }
     
 }

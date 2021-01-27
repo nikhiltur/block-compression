@@ -29,9 +29,11 @@ public class ModBlocks {
     public static final Block COMPRESSED_NETHERRACK = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.NETHERRACK));
     public static final Block BAMBOO_BLOCK = new Block(FabricBlockSettings
-        .of(Material.BAMBOO).breakByTool(FabricToolTags.AXES).requiresTool().strength(4.0f, 4.0f).sounds(BlockSoundGroup.WOOD));
+        .of(Material.BAMBOO).breakByTool(FabricToolTags.AXES).requiresTool().strength(4.0f, 4.0f).sounds(BlockSoundGroup.BAMBOO));
     public static final Block COMPRESSED_COAL_BLOCK = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(6.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block SUGARCANE_BLOCK = new Block(FabricBlockSettings
+        .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.HOES).strength(0.5f, 0.0f).sounds(BlockSoundGroup.GRASS));
 
     public static void registerBlocks() {
         // Block Registry
@@ -45,6 +47,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_netherrack"), COMPRESSED_NETHERRACK);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "bamboo_block"), BAMBOO_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_coal_block"), COMPRESSED_COAL_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "sugarcane_block"), SUGARCANE_BLOCK);
         
         // Fuel Registry
         FuelRegistry.INSTANCE.add(BAMBOO_BLOCK, 600);

@@ -9,5 +9,6 @@
     "block.blockcompression.compressed_granite": "Compressed Granite",
     "block.blockcompression.compressed_netherrack": "Compressed Netherrack",
     "block.blockcompression.bamboo_block": "Bamboo Block",
-    "block.blockcompression.compressed_coal_block": "Compressed Block of Coal"
+    "block.blockcompression.compressed_coal_block": "Compressed Block of Coal",
+    "block.blockcompression.sugarcane_block": "Sugarcane Block"
 }

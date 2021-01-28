@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "blockcompression:sugarcane_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sugarcane",
+        "count": 9
+    },
+    "group": "blockcompression"
+}

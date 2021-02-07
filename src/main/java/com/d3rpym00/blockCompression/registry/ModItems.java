@@ -21,6 +21,7 @@ public class ModItems {
     public static final BlockItem BAMBOO_BLOCK = new BlockItem(ModBlocks.BAMBOO_BLOCK, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_COAL_BLOCK = new BlockItem(ModBlocks.COMPRESSED_COAL_BLOCK, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem SUGARCANE_BLOCK = new BlockItem(ModBlocks.SUGARCANE_BLOCK, new Item.Settings().group(blockCompression.ITEM_GROUP));
+    public static final BlockItem STICKY_SILK_BLOCK = new BlockItem(ModBlocks.STICKY_SILK_BLOCK, new Item.Settings().group(blockCompression.ITEM_GROUP));
     
     public static void registerItems() {
         // Item Registry
@@ -35,5 +36,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "bamboo_block"), BAMBOO_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_coal_block"), COMPRESSED_COAL_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "sugarcane_block"), SUGARCANE_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "sticky_silk_block"), STICKY_SILK_BLOCK);
     }
 }

@@ -10,5 +10,6 @@
     "block.blockcompression.compressed_netherrack": "Compressed Netherrack",
     "block.blockcompression.bamboo_block": "Bamboo Block",
     "block.blockcompression.compressed_coal_block": "Compressed Block of Coal",
-    "block.blockcompression.sugarcane_block": "Sugarcane Block"
+    "block.blockcompression.sugarcane_block": "Sugarcane Block",
+    "block.blockcompression.sticky_silk_block": "Sticky Silk Block"
 }

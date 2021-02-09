@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "blockcompression::sticky_silk_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:string",
+        "count": 9
+    },
+    "group": "blockcompression"
+}

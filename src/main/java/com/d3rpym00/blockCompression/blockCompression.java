@@ -22,7 +22,5 @@ public class blockCompression implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
-        
     }
-    
 }

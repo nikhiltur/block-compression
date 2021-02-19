@@ -18,6 +18,7 @@ if recipeType == ("shaped"):
     middleRow = input("Enter the middle row of letters: ")
     bottomRow = input("Enter the bottom row of letters: ")  
 
+# Always runs to get necessary information
 print("usedItem format is id:blockname (i.e. minecraft:dirt).")
 usedItem = input("Enter the item used for crafting: ")
 print("resultItem format is id:blockname (i.e. blockcompression:compressed_dirt).")
@@ -25,6 +26,7 @@ resultItem = input("Enter the item resulted from the crafting: ")
 count = input("Enter the number of items crafted: ")
 mod_id = input("Enter mod id for grouping purposes: ")
 
+# Shaped recipe .json variable
 shaped = {
     "type": "minecraft:crafting_shaped",
     "pattern": [
@@ -44,6 +46,7 @@ shaped = {
     "group": mod_id
   }
 
+# Shapeless recipe .json variable
 shapeless = {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
@@ -58,25 +61,28 @@ shapeless = {
     "group": mod_id
 }
 
+# Shaped recipe generator
 if recipeType == ("shaped"):
     shaped_crafting_recipeJSON = json.dumps(shaped, indent = 4)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\data\\blockcompression\\recipes\\"
     completeName = os.path.join(save_path, blockName + ".json")
     print(shaped_crafting_recipeJSON)
 
-    json = open(completeName, "w")
-    json.write(shaped_crafting_recipeJSON)
-    json.close()
+    j = open(completeName, "w")
+    j.write(shaped_crafting_recipeJSON)
+    j.close()
 
+# Shapeless recipe generator
 elif recipeType == ("shapeless"):
     shapeless_crafting_recipeJSON = json.dumps(shapeless, indent = 4)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\data\\blockcompression\\recipes\\"
     completeName = os.path.join(save_path, blockName + ".json")
     print(shapeless_crafting_recipeJSON)
 
-    json = open(completeName, "w")
-    json.write(shapeless_crafting_recipeJSON)
-    json.close()
+    j1 = open(completeName, "w")
+    j1.write(shapeless_crafting_recipeJSON)
+    j1.close()
 
+# Something went wrong
 else:
     print("Something went wrong, please try again.")

@@ -36,6 +36,8 @@ public class ModBlocks {
         .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.HOES).strength(0.5f, 0.0f).sounds(BlockSoundGroup.GRASS));
     public static final Block STICKY_SILK_BLOCK = new Block(FabricBlockSettings
         .of(Material.SOLID_ORGANIC).breakByHand(true).strength(0.25f, 0.0f).sounds(BlockSoundGroup.SLIME));
+    public static final Block COMPRESSED_STONE = new Block(FabricBlockSettings
+        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
 
     public static void registerBlocks() {
         // Block Registry
@@ -51,6 +53,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_coal_block"), COMPRESSED_COAL_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "sugarcane_block"), SUGARCANE_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "stick_silk_block"), STICKY_SILK_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_stone"), COMPRESSED_STONE);
         
         // Fuel Registry
         FuelRegistry.INSTANCE.add(BAMBOO_BLOCK, 600);

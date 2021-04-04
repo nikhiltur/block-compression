@@ -1,4 +1,5 @@
 {
+    "comment1": "Single Compression",
     "itemGroup.blockcompression.general": "Compressed Blocks",
     "block.blockcompression.compressed_dirt": "Compressed Dirt",
     "block.blockcompression.compressed_cobblestone": "Compressed Cobblestone",
@@ -12,5 +13,19 @@
     "block.blockcompression.compressed_coal_block": "Compressed Block of Coal",
     "block.blockcompression.sugarcane_block": "Sugarcane Block",
     "block.blockcompression.sticky_silk_block": "Sticky Silk Block",
-    "block.blockcompression.compressed_stone": "Compressed Stone"
+    "block.blockcompression.compressed_stone": "Compressed Stone",
+    "comment2": "Double Compression",
+    "block.blockcompression.compressed_dirt_x2": "Compressed Dirt x2",
+    "block.blockcompression.compressed_cobblestone_x2": "Compressed Cobblestone x2",
+    "block.blockcompression.compressed_gravel_x2": "Compressed Gravel x2",
+    "block.blockcompression.compressed_sand_x2": "Compressed Sand x2",
+    "block.blockcompression.compressed_diorite_x2": "Compressed Diorite x2",
+    "block.blockcompression.compressed_andesite_x2": "Compressed Andesite x2",
+    "block.blockcompression.compressed_granite_x2": "Compressed Granite x2",
+    "block.blockcompression.compressed_netherrack_x2": "Compressed Netherrack x2",
+    "block.blockcompression.bamboo_block_x2": "Bamboo Block x2",
+    "block.blockcompression.compressed_coal_block_x2": "Compressed Block of Coal x2",
+    "block.blockcompression.sugarcane_block_x2": "Sugarcane Block x2",
+    "block.blockcompression.sticky_silk_block_x2": "Sticky Silk Block x2",
+    "block.blockcompression.compressed_stone_x2": "Compressed Stone x2"
 }

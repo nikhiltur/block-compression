@@ -1,7 +1,7 @@
 import json
 import os.path
 
-jsonType = input("Type \"confirm\" to continue with this operation: ")
+jsonType = "true"
 blockName = input("Enter block name: ")
 
 # .json generating functions
@@ -38,7 +38,7 @@ blockItem = {
     "parent": "blockcompression:block/" + blockName + ''
 }
 
-if jsonType == ("confirm"):
+if jsonType == ("true"):
     # lootTable .json generator
     lootTableJSON = json.dumps(lootTable, indent = 2)
     save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\data\\blockcompression\\loot_tables\\blocks\\"

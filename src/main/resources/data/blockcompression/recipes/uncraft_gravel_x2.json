@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "blockcompression:sticky_silk_block"
+            "item": "blockcompression:compressed_gravel_x2"
         }
     ],
     "result": {
-        "item": "minecraft:string",
+        "item": "blockcompression:compressed_gravel",
         "count": 9
     },
     "group": "blockcompression"

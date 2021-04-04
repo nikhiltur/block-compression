@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blockcompression:blocks/sugarcane_block_x2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blockcompression:blocks/compressed_gravel_x2"
+  }
+}

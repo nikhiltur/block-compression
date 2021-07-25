@@ -2,7 +2,6 @@ package com.d3rpym00.blockCompression;
 
 import com.d3rpym00.blockCompression.registry.ModBlocks;
 import com.d3rpym00.blockCompression.registry.ModItems;
-
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

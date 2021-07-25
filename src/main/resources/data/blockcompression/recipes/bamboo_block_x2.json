@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    "key": {
+        "B": {
+            "item": "blockcompression:bamboo_block"
+        }
+    },
+    "result": {
+        "item": "blockcompression:bamboo_block_x2",
+        "count": 1
+    },
+    "group": "blockcompression"
+}

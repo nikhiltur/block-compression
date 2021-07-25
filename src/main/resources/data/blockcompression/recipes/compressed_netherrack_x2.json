@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NNN",
+        "NNN",
+        "NNN"
+    ],
+    "key": {
+        "N": {
+            "item": "blockcompression:compressed_netherrack"
+        }
+    },
+    "result": {
+        "item": "blockcompression:compressed_netherrack_x2",
+        "count": 1
+    },
+    "group": "blockcompression"
+}

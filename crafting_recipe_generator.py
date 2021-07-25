@@ -12,11 +12,11 @@ bottomRow = ""
 letter = ""
 
 # Only runs if the recipe is shaped crafting
-if recipeType == ("shaped"):
+if recipeType == "shaped":
     letter = input("Enter the letter to be used: ")
     topRow = input("Enter the top row of letters: ")
     middleRow = input("Enter the middle row of letters: ")
-    bottomRow = input("Enter the bottom row of letters: ")  
+    bottomRow = input("Enter the bottom row of letters: ")
 
 # Always runs to get necessary information
 print("usedItem format is id:blockname (i.e. minecraft:dirt).")
@@ -62,9 +62,10 @@ shapeless = {
 }
 
 # Shaped recipe generator
-if recipeType == ("shaped"):
+if recipeType == "shaped":
     shaped_crafting_recipeJSON = json.dumps(shaped, indent = 4)
-    save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\data\\blockcompression\\recipes\\"
+    save_path = "C:\\Users\\nikhi\\Documents\\block-compression\\src\\main\\resources\\data\\blockcompression" \
+                "\\recipes"
     completeName = os.path.join(save_path, blockName + ".json")
     print(shaped_crafting_recipeJSON)
 
@@ -73,9 +74,10 @@ if recipeType == ("shaped"):
     j.close()
 
 # Shapeless recipe generator
-elif recipeType == ("shapeless"):
+elif recipeType == "shapeless":
     shapeless_crafting_recipeJSON = json.dumps(shapeless, indent = 4)
-    save_path = "C:\\Users\\glogm\\source\\repos\\block-compression\\src\\main\\resources\\data\\blockcompression\\recipes\\"
+    save_path = "C:\\Users\\nikhi\\Documents\\block-compression\\src\\main\\resources\\data\\blockcompression" \
+                "\\recipes"
     completeName = os.path.join(save_path, blockName + ".json")
     print(shapeless_crafting_recipeJSON)
 

@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sugarcane",
+        "item": "minecraft:sugar_cane",
         "count": 9
     },
     "group": "blockcompression"

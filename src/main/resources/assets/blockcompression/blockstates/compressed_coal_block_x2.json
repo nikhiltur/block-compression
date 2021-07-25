@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blockcompression:block/compressed_coal_block_x2"
+    }
+  }
+}

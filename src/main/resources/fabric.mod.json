@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "blockcompression",
-  "version": "${1.0}",
+  "version": "${1.1}",
 
   "name": "Block Compression",
   "description": "Compresses blocks that would normally take up a lot of space.",
@@ -27,9 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.11.6",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.17.x"
   },
   "suggests": {
     "another-mod": "*"

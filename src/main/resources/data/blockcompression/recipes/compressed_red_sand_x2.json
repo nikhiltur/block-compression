@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "blockcompression:compressed_red_sand"
+        }
+    },
+    "result": {
+        "item": "blockcompression:compressed_red_sand_x2",
+        "count": 1
+    },
+    "group": "blockcompression"
+}

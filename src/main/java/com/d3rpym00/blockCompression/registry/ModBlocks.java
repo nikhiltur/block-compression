@@ -42,8 +42,9 @@ public class ModBlocks {
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_SANDSTONE = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.STONE));
+    public static final Block COMPRESSED_END_STONE = new Block(FabricBlockSettings
+        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(3.0f, 9.0f).sounds(BlockSoundGroup.STONE));
     // public static final Block COMPRESSED_CLAY_BLOCK
-    // public static final Block COMPRESSED_ENDSTONE
 
     // Double compressed
     public static final Block COMPRESSED_DIRT_x2 = new Block(FabricBlockSettings
@@ -74,6 +75,8 @@ public class ModBlocks {
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_SANDSTONE_x2 = new Block(FabricBlockSettings
             .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.STONE));
+    public static final Block COMPRESSED_END_STONE_x2 = new Block(FabricBlockSettings
+            .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(6.0f, 18.0f).sounds(BlockSoundGroup.STONE));
 
     public static void registerBlocks() {
         // Block Registry
@@ -93,6 +96,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "sugarcane_block"), SUGARCANE_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_stone"), COMPRESSED_STONE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_sandstone"), COMPRESSED_SANDSTONE);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_end_stone"), COMPRESSED_END_STONE);
 
         // Double compressed
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_dirt_x2"), COMPRESSED_DIRT_x2);
@@ -109,6 +113,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "sugarcane_block_x2"), SUGARCANE_BLOCK_x2);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_stone_x2"), COMPRESSED_STONE_x2);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_sandstone_x2"), COMPRESSED_SANDSTONE_x2);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_end_stone_x2"), COMPRESSED_END_STONE_x2);
         
         // Fuel Registry
         FuelRegistry.INSTANCE.add(BAMBOO_BLOCK, 600);

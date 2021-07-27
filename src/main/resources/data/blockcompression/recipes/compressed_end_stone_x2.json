@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EEE",
+        "EEE",
+        "EEE"
+    ],
+    "key": {
+        "E": {
+            "item": "blockcompression:compressed_end_stone"
+        }
+    },
+    "result": {
+        "item": "blockcompression:compressed_end_stone_x2",
+        "count": 1
+    },
+    "group": "blockcompression"
+}

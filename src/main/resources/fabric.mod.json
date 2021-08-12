@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "blockcompression",
-  "version": "1.1.1",
+  "version": "1.1.2",
 
   "name": "Block Compression",
   "description": "Compresses blocks that would normally take up a lot of space.",

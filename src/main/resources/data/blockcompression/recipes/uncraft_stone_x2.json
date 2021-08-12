@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "blockcompression:compressed_cobblestone_x2"
+            "item": "blockcompression:compressed_stone_x2"
         }
     ],
     "result": {
-        "item": "blockcompression:compressed_cobblestone",
+        "item": "blockcompression:compressed_stone",
         "count": 9
     },
     "group": "blockcompression"

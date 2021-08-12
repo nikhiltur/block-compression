@@ -6,7 +6,7 @@
         }
     ],
     "result": {
-        "item": "blockcompression_compressed_andesite",
+        "item": "blockcompression:compressed_andesite",
         "count": 9
     },
     "group": "blockcompression"

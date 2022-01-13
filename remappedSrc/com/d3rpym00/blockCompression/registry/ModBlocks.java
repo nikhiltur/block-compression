@@ -15,7 +15,7 @@ public class ModBlocks {
     
     // Single compressed
     public static final Block COMPRESSED_DIRT = new Block(FabricBlockSettings
-        .of(Material.SOLID_ORGANIC).requiresTool().strength(1.0f, 5.0f).sounds(BlockSoundGroup.GRAVEL));
+        .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(1.0f, 5.0f).sounds(BlockSoundGroup.GRAVEL));
     public static final Block COMPRESSED_COBBLESTONE = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_GRAVEL = new Block(FabricBlockSettings

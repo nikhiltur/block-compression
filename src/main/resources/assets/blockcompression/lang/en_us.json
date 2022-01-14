@@ -16,6 +16,7 @@
     "block.blockcompression.compressed_stone": "Compressed Stone",
     "block.blockcompression.compressed_sandstone": "Compressed Sandstone",
     "block.blockcompression.compressed_end_stone": "Compressed End Stone",
+    "block.blockcompression.compressed_clay": "Compressed Clay",
     "comment2": "Double Compression",
     "block.blockcompression.compressed_dirt_x2": "Compressed Dirt x2",
     "block.blockcompression.compressed_cobblestone_x2": "Compressed Cobblestone x2",
@@ -31,5 +32,6 @@
     "block.blockcompression.sugarcane_block_x2": "Sugarcane Block x2",
     "block.blockcompression.compressed_stone_x2": "Compressed Stone x2",
     "block.blockcompression.compressed_sandstone_x2": "Compressed Sandstone x2",
-    "block.blockcompression.compressed_end_stone_x2": "Compressed End Stone x2"
+    "block.blockcompression.compressed_end_stone_x2": "Compressed End Stone x2",
+    "block.blockcompression.compressed_clay_x2": "Compressed Clay x2"
 }

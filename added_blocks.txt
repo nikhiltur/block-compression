@@ -1,0 +1,29 @@
+dirt
+cobblestone
+gravel
+sand
+red sand
+diorite
+andesite
+granite
+netherrack
+bamboo
+coal
+sugarcane
+stone
+sandstone
+end stone
+
+clay
+quartz
+stone bricks
+redstone block (name is block of redstone)
+bone block
+deepslate
+basalt
+sandstone
+soul sand
+soul soil
+hay bale
+honey block
+slime block

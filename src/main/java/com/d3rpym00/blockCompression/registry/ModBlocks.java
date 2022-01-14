@@ -15,7 +15,7 @@ public class ModBlocks {
     
     // Single compressed
     public static final Block COMPRESSED_DIRT = new Block(FabricBlockSettings
-        .of(Material.SOLID_ORGANIC).requiresTool().strength(1.0f, 5.0f).sounds(BlockSoundGroup.GRAVEL));
+        .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(1.0f, 5.0f).sounds(BlockSoundGroup.GRAVEL));
     public static final Block COMPRESSED_COBBLESTONE = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_GRAVEL = new Block(FabricBlockSettings
@@ -44,7 +44,8 @@ public class ModBlocks {
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_END_STONE = new Block(FabricBlockSettings
         .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(3.0f, 9.0f).sounds(BlockSoundGroup.STONE));
-    // public static final Block COMPRESSED_CLAY_BLOCK
+    public static final Block COMPRESSED_CLAY = new Block(FabricBlockSettings
+            .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(1.2f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
 
     // Double compressed
     public static final Block COMPRESSED_DIRT_x2 = new Block(FabricBlockSettings
@@ -77,6 +78,8 @@ public class ModBlocks {
             .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_END_STONE_x2 = new Block(FabricBlockSettings
             .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(6.0f, 18.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block COMPRESSED_CLAY_x2 = new Block(FabricBlockSettings
+            .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(2.4f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
 
     public static void registerBlocks() {
         // Block Registry
@@ -97,6 +100,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_stone"), COMPRESSED_STONE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_sandstone"), COMPRESSED_SANDSTONE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_end_stone"), COMPRESSED_END_STONE);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_clay"), COMPRESSED_CLAY);
 
         // Double compressed
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_dirt_x2"), COMPRESSED_DIRT_x2);
@@ -114,6 +118,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_stone_x2"), COMPRESSED_STONE_x2);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_sandstone_x2"), COMPRESSED_SANDSTONE_x2);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_end_stone_x2"), COMPRESSED_END_STONE_x2);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_clay_x2"), COMPRESSED_CLAY_x2);
         
         // Fuel Registry
         FuelRegistry.INSTANCE.add(BAMBOO_BLOCK, 600);

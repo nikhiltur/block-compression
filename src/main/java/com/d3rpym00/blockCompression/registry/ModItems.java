@@ -26,6 +26,7 @@ public class ModItems {
     public static final BlockItem COMPRESSED_STONE = new BlockItem(ModBlocks.COMPRESSED_STONE, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_SANDSTONE = new BlockItem(ModBlocks.COMPRESSED_SANDSTONE, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_END_STONE = new BlockItem(ModBlocks.COMPRESSED_END_STONE, new Item.Settings().group(blockCompression.ITEM_GROUP));
+    public static final BlockItem COMPRESSED_CLAY = new BlockItem(ModBlocks.COMPRESSED_CLAY, new Item.Settings().group(blockCompression.ITEM_GROUP));
 
     // Double compression
     public static final BlockItem COMPRESSED_DIRT_x2 = new BlockItem(ModBlocks.COMPRESSED_DIRT_x2, new Item.Settings().group(blockCompression.ITEM_GROUP));
@@ -43,6 +44,7 @@ public class ModItems {
     public static final BlockItem COMPRESSED_STONE_x2 = new BlockItem(ModBlocks.COMPRESSED_STONE_x2, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_SANDSTONE_x2 = new BlockItem(ModBlocks.COMPRESSED_SANDSTONE_x2, new Item.Settings().group(blockCompression.ITEM_GROUP));
     public static final BlockItem COMPRESSED_END_STONE_x2 = new BlockItem(ModBlocks.COMPRESSED_END_STONE_x2, new Item.Settings().group(blockCompression.ITEM_GROUP));
+    public static final BlockItem COMPRESSED_CLAY_x2 = new BlockItem(ModBlocks.COMPRESSED_CLAY_x2, new Item.Settings().group(blockCompression.ITEM_GROUP));
 
     public static void registerItems() {
         // Item Registry
@@ -63,6 +65,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_stone"), COMPRESSED_STONE);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_sandstone"), COMPRESSED_SANDSTONE);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_end_stone"), COMPRESSED_END_STONE);
+        Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_clay"), COMPRESSED_CLAY);
 
         // Double compressed
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_dirt_x2"), COMPRESSED_DIRT_x2);
@@ -80,5 +83,6 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_stone_x2"), COMPRESSED_STONE_x2);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_sandstone_x2"), COMPRESSED_SANDSTONE_x2);
         Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_end_stone_x2"), COMPRESSED_END_STONE_x2);
+        Registry.register(Registry.ITEM, new Identifier(blockCompression.MOD_ID, "compressed_clay_x2"), COMPRESSED_CLAY_x2);
     }
 }

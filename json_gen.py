@@ -41,8 +41,8 @@ blockItem = {
 if jsonType == "true":
     # lootTable .json generator
     lootTableJSON = json.dumps(lootTable, indent = 2)
-    save_path = "C:\\Users\\nikhi\\Documents\\block-compression\\src\\main\\resources\\data\\blockcompression" \
-                "\\loot_tables\\blocks"
+    save_path = "C:\\Users\\Nikhil Turlapati\\Documents\\block-compression\\src\\main\\resources\\data" \
+                "\\blockcompression\\loot_tables\\blocks"
     completeName = os.path.join(save_path, blockName + ".json")
     print(lootTableJSON)
     j = open(completeName, "w")
@@ -52,8 +52,8 @@ if jsonType == "true":
     
     # blockState .json generator
     blockStateJSON = json.dumps(blockState, indent = 2)
-    save_path = "C:\\Users\\nikhi\\Documents\\block-compression\\src\\main\\resources\\assets\\blockcompression" \
-                "\\blockstates"
+    save_path = "C:\\Users\\Nikhil Turlapati\\Documents\\block-compression\\src\\main\\resources\\assets" \
+                "\\blockcompression\\blockstates"
     completeName = os.path.join(save_path, blockName + ".json")
     print(blockStateJSON)
     j2 = open(completeName, "w")
@@ -63,8 +63,8 @@ if jsonType == "true":
 
     # blockModel .json generator
     blockModelJSON = json.dumps(blockModel, indent = 2)
-    save_path = "C:\\Users\\nikhi\\Documents\\block-compression\\src\\main\\resources\\assets\\blockcompression" \
-                "\\models\\block"
+    save_path = "C:\\Users\\Nikhil Turlapati\\Documents\\block-compression\\src\\main\\resources\\assets" \
+                "\\blockcompression\\models\\block"
     completeName = os.path.join(save_path, blockName + ".json")
     print(blockModelJSON)
     j3 = open(completeName, "w")
@@ -74,8 +74,8 @@ if jsonType == "true":
 
     # blockItem .json generator
     blockItemJSON = json.dumps(blockItem, indent = 2)
-    save_path = "C:\\Users\\nikhi\\Documents\\block-compression\\src\\main\\resources\\assets\\blockcompression" \
-                "\\models\\item"
+    save_path = "C:\\Users\\Nikhil Turlapati\\Documents\\block-compression\\src\\main\\resources\\assets" \
+                "\\blockcompression\\models\\item"
     completeName = os.path.join(save_path, blockName + ".json")
     print(blockItemJSON)
     j4 = open(completeName, "w")

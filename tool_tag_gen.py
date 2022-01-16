@@ -7,8 +7,8 @@ print("Tool tier options are stone, iron, and diamond.")
 breakTier = input("Enter the tier of tool used to break the block: ")
 blockName = "blockcompression:" + input("Enter blockname: ")
 
-parentDir = "C:\\Users\\Nikhil Turlapati\\Documents\\block-compression\\src\\main\\resources\\data\\minecraft\\tags" \
-            "\\blocks"
+parentDir = "C:\\Users\\Nikhil Turlapati\\Documents\\block-compression\\src\\main\\resources\\data\\minecraft" \
+            "\\tags\\blocks"
 
 if breakTool == "pickaxe":
     pickDir = os.path.join(parentDir, "mineable\\pickaxe.json")

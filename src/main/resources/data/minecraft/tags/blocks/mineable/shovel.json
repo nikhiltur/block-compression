@@ -1,4 +1,1 @@
-{
-  "replace": false,
-  "values": []
-}
+{"replace": false, "values": ["blockcompression:compressed_dirt", "blockcompression:compressed_dirt_x2", "blockcompression:compressed_gravel", "blockcompression:compressed_gravel_x2", "blockcompression:compressed_sand", "blockcompression:compressed_sand_x2"]}

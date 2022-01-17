@@ -4,7 +4,6 @@ import com.d3rpym00.blockCompression.blockCompression;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
@@ -23,29 +22,29 @@ public class ModBlocks {
     public static final Block COMPRESSED_SAND = new Block(FabricBlockSettings
         .of(Material.SOLID_ORGANIC).requiresTool().strength(1.0f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
     public static final Block COMPRESSED_RED_SAND = new Block(FabricBlockSettings
-        .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(1.0f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
+        .of(Material.SOLID_ORGANIC).requiresTool().strength(1.0f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
     public static final Block COMPRESSED_DIORITE = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_ANDESITE = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_GRANITE = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_NETHERRACK = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.NETHERRACK));
+        .of(Material.STONE).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.NETHERRACK));
     public static final Block BAMBOO_BLOCK = new Block(FabricBlockSettings
-        .of(Material.BAMBOO).breakByTool(FabricToolTags.AXES).requiresTool().strength(4.0f, 4.0f).sounds(BlockSoundGroup.BAMBOO));
+        .of(Material.BAMBOO).requiresTool().strength(4.0f, 4.0f).sounds(BlockSoundGroup.BAMBOO));
     public static final Block COMPRESSED_COAL_BLOCK = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(6.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(6.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block SUGARCANE_BLOCK = new Block(FabricBlockSettings
-        .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.HOES).strength(0.5f, 0.0f).sounds(BlockSoundGroup.GRASS));
+        .of(Material.SOLID_ORGANIC).requiresTool().strength(0.5f, 0.0f).sounds(BlockSoundGroup.GRASS));
     public static final Block COMPRESSED_STONE = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(4.0f, 12.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_SANDSTONE = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(0.8f, 0.8f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_END_STONE = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(3.0f, 9.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(3.0f, 9.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_CLAY = new Block(FabricBlockSettings
-            .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(1.2f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
+            .of(Material.SOLID_ORGANIC).requiresTool().strength(1.2f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
 
     // Double compressed
     public static final Block COMPRESSED_DIRT_x2 = new Block(FabricBlockSettings
@@ -57,29 +56,29 @@ public class ModBlocks {
     public static final Block COMPRESSED_SAND_x2 = new Block(FabricBlockSettings
         .of(Material.SOLID_ORGANIC).requiresTool().strength(2.0f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
     public static final Block COMPRESSED_RED_SAND_x2 = new Block(FabricBlockSettings
-            .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(2.0f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
+            .of(Material.SOLID_ORGANIC).requiresTool().strength(2.0f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
     public static final Block COMPRESSED_DIORITE_x2 = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_ANDESITE_x2 = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_GRANITE_x2 = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_NETHERRACK_x2 = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.NETHERRACK));
+        .of(Material.STONE).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.NETHERRACK));
     public static final Block BAMBOO_BLOCK_x2 = new Block(FabricBlockSettings
-        .of(Material.BAMBOO).breakByTool(FabricToolTags.AXES).requiresTool().strength(8.0f, 8.0f).sounds(BlockSoundGroup.BAMBOO));
+        .of(Material.BAMBOO).requiresTool().strength(8.0f, 8.0f).sounds(BlockSoundGroup.BAMBOO));
     public static final Block COMPRESSED_COAL_BLOCK_x2 = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(12.0f, 24.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(12.0f, 24.0f).sounds(BlockSoundGroup.STONE));
     public static final Block SUGARCANE_BLOCK_x2 = new Block(FabricBlockSettings
-        .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.HOES).strength(1.0f, 0.0f).sounds(BlockSoundGroup.GRASS));
+        .of(Material.SOLID_ORGANIC).requiresTool().strength(1.0f, 0.0f).sounds(BlockSoundGroup.GRASS));
     public static final Block COMPRESSED_STONE_x2 = new Block(FabricBlockSettings
-        .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
+        .of(Material.STONE).requiresTool().strength(8.0f, 24.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_SANDSTONE_x2 = new Block(FabricBlockSettings
-            .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.STONE));
+            .of(Material.STONE).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_END_STONE_x2 = new Block(FabricBlockSettings
-            .of(Material.STONE).breakByTool(FabricToolTags.PICKAXES).requiresTool().strength(6.0f, 18.0f).sounds(BlockSoundGroup.STONE));
+            .of(Material.STONE).requiresTool().strength(6.0f, 18.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_CLAY_x2 = new Block(FabricBlockSettings
-            .of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.SHOVELS).requiresTool().strength(2.4f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
+            .of(Material.SOLID_ORGANIC).requiresTool().strength(2.4f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
 
     public static void registerBlocks() {
         // Block Registry

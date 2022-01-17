@@ -2,18 +2,18 @@ dirt --
 cobblestone --
 gravel --
 sand --
-red sand
-diorite
-andesite
-granite
-netherrack
-bamboo
-coal
-sugarcane
-stone
-sandstone
-end stone
-clay
+red sand --
+diorite --
+andesite --
+granite --
+netherrack --
+bamboo --
+coal --
+sugarcane --
+stone --
+sandstone --
+end stone --
+clay --
 
 --> All textures finished
 quartz

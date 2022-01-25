@@ -24,7 +24,7 @@ usedItem = input("Enter the item used for crafting: ")
 print("resultItem format is id:blockname (i.e. blockcompression:compressed_dirt).")
 resultItem = input("Enter the item resulted from the crafting: ")
 count = input("Enter the number of items crafted: ")
-mod_id = input("Enter mod id for grouping purposes: ")
+# mod_id = input("Enter mod id for grouping purposes: ")
 
 # Shaped recipe .json variable
 shaped = {
@@ -43,7 +43,7 @@ shaped = {
       "item": '' + resultItem + '',
       "count": int(count)
     },
-    "group": mod_id
+    "group": "blockcompression"
   }
 
 # Shapeless recipe .json variable
@@ -58,7 +58,7 @@ shapeless = {
         "item": resultItem,
         "count": int(count)
     },
-    "group": mod_id
+    "group": "blockcompression"
 }
 
 # Shaped recipe generator

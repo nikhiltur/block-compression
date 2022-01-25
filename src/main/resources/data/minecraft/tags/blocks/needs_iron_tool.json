@@ -1,4 +1,1 @@
-{
-  "replace": false,
-  "values": []
-}
+{"replace": false, "values": ["blockcompression:compressed_quartz", "blockcompression:compressed_quartz_x2"]}

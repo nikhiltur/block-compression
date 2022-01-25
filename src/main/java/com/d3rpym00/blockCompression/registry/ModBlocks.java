@@ -45,6 +45,8 @@ public class ModBlocks {
         .of(Material.STONE).requiresTool().strength(3.0f, 9.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_CLAY = new Block(FabricBlockSettings
             .of(Material.SOLID_ORGANIC).requiresTool().strength(1.2f, 1.2f).sounds(BlockSoundGroup.GRAVEL));
+    public static final Block COMPRESSED_QUARTZ = new Block(FabricBlockSettings
+            .of(Material.STONE).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.STONE));
 
     // Double compressed
     public static final Block COMPRESSED_DIRT_x2 = new Block(FabricBlockSettings
@@ -79,6 +81,8 @@ public class ModBlocks {
             .of(Material.STONE).requiresTool().strength(6.0f, 18.0f).sounds(BlockSoundGroup.STONE));
     public static final Block COMPRESSED_CLAY_x2 = new Block(FabricBlockSettings
             .of(Material.SOLID_ORGANIC).requiresTool().strength(2.4f, 2.4f).sounds(BlockSoundGroup.GRAVEL));
+    public static final Block COMPRESSED_QUARTZ_x2 = new Block(FabricBlockSettings
+            .of(Material.STONE).requiresTool().strength(1.6f, 1.6f).sounds(BlockSoundGroup.STONE));
 
     public static void registerBlocks() {
         // Block Registry
@@ -100,6 +104,7 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_sandstone"), COMPRESSED_SANDSTONE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_end_stone"), COMPRESSED_END_STONE);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_clay"), COMPRESSED_CLAY);
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_quartz"), COMPRESSED_QUARTZ);
 
         // Double compressed
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_dirt_x2"), COMPRESSED_DIRT_x2);
@@ -118,7 +123,9 @@ public class ModBlocks {
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_sandstone_x2"), COMPRESSED_SANDSTONE_x2);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_end_stone_x2"), COMPRESSED_END_STONE_x2);
         Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_clay_x2"), COMPRESSED_CLAY_x2);
-        
+        Registry.register(Registry.BLOCK, new Identifier(blockCompression.MOD_ID, "compressed_quartz_x2"), COMPRESSED_QUARTZ_x2);
+
+
         // Fuel Registry
         FuelRegistry.INSTANCE.add(BAMBOO_BLOCK, 600);
         FuelRegistry.INSTANCE.add(COMPRESSED_COAL_BLOCK, 20000);
